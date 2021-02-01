@@ -69,6 +69,86 @@ a {
   background-color: #fa5757;
 }
 
+footer .last-footer {
+  background-color: #232222;
+}
+
+footer .last-footer .social-icons {
+  color: #807d7d;
+}
+
+footer .last-footer .sitemap {
+  color: #807d7d;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+footer .last-footer .sitemap span {
+  color: white;
+  font-weight: 400;
+}
+
+footer .first-footer {
+  background-color: #000;
+}
+
+footer .first-footer .footer-nav {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+footer .first-footer .footer-nav .footer-nav-item {
+  color: white;
+  font-weight: 600;
+}
+
+footer .first-footer .footer-nav .middle-icon {
+  color: white;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  left: 50%;
+  border: 1px solid grey;
+  font-size: 60px;
+  padding: 50px;
+  background-color: black;
+}
+
+footer .first-footer .footer-form h5 {
+  color: white;
+}
+
+footer .first-footer .footer-form button {
+  background-color: grey;
+  color: black;
+  font-weight: 700;
+}
+
+footer .first-footer .footer-form input {
+  background-color: black;
+  border-color: grey;
+}
+
+footer .first-footer .footer-form .contact p {
+  color: #5a5a5a;
+  line-height: 25px;
+  font-size: 12px;
+}
+
+footer .first-footer .footer-form .contact p span {
+  color: #fa5757;
+}
+
+footer .first-footer .footer-form .about p {
+  color: #5a5a5a;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+footer .first-footer .footer-form .about p span {
+  color: #fa5757;
+}
+
 main .search-section {
   height: 70vh;
   background-image: url(/assets/hero-image.jpg);
@@ -221,84 +301,4 @@ main .main-results .results-heading {
 main .main-results .box-card {
   border: 1px solid black;
   text-align: center;
-}
-
-footer .last-footer {
-  background-color: #232222;
-}
-
-footer .last-footer .social-icons {
-  color: #807d7d;
-}
-
-footer .last-footer .sitemap {
-  color: #807d7d;
-  font-weight: 200;
-  font-size: 12px;
-}
-
-footer .last-footer .sitemap span {
-  color: white;
-  font-weight: 400;
-}
-
-footer .first-footer {
-  background-color: #000;
-}
-
-footer .first-footer .footer-nav {
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
-}
-
-footer .first-footer .footer-nav .footer-nav-item {
-  color: white;
-  font-weight: 600;
-}
-
-footer .first-footer .footer-nav .middle-icon {
-  color: white;
-  border-radius: 50px;
-  width: 70px;
-  height: 70px;
-  left: 50%;
-  border: 1px solid grey;
-  font-size: 60px;
-  padding: 50px;
-  background-color: black;
-}
-
-footer .first-footer .footer-form h5 {
-  color: white;
-}
-
-footer .first-footer .footer-form button {
-  background-color: grey;
-  color: black;
-  font-weight: 700;
-}
-
-footer .first-footer .footer-form input {
-  background-color: black;
-  border-color: grey;
-}
-
-footer .first-footer .footer-form .contact p {
-  color: #5a5a5a;
-  line-height: 25px;
-  font-size: 12px;
-}
-
-footer .first-footer .footer-form .contact p span {
-  color: #fa5757;
-}
-
-footer .first-footer .footer-form .about p {
-  color: #5a5a5a;
-  font-size: 12px;
-  line-height: 25px;
-}
-
-footer .first-footer .footer-form .about p span {
-  color: #fa5757;
 }

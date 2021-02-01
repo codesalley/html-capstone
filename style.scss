@@ -79,6 +79,94 @@ a {
   }
 }
 
+footer {
+  .last-footer {
+    background-color: $secound-footer-color;
+
+    .social-icons {
+      color: rgb(128, 125, 125);
+    }
+
+    .sitemap {
+      color: rgb(128, 125, 125);
+      font-weight: 200;
+      font-size: 12px;
+
+      span {
+        color: white;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .first-footer {
+    background-color: #000;
+
+    .footer-nav {
+      border-top: 1px solid gray;
+      border-bottom: 1px solid gray;
+
+      .footer-nav-item {
+        color: white;
+        font-weight: 600;
+      }
+
+      .middle-icon {
+        color: white;
+        border-radius: 50px;
+        width: 70px;
+        height: 70px;
+        left: 50%;
+        border: 1px solid grey;
+        font-size: 60px;
+        padding: 50px;
+        background-color: black;
+      }
+    }
+
+    .footer-form {
+      h5 {
+        color: white;
+      }
+
+      button {
+        background-color: grey;
+        color: black;
+        font-weight: 700;
+      }
+
+      input {
+        background-color: black;
+        border-color: grey;
+      }
+
+      .contact {
+        p {
+          color: $text-color;
+          line-height: 25px;
+          font-size: 12px;
+
+          span {
+            color: $primary-color;
+          }
+        }
+      }
+
+      .about {
+        p {
+          color: $text-color;
+          font-size: 12px;
+          line-height: 25px;
+
+          span {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+}
+
 main {
   .search-section {
     height: 70vh;
@@ -229,94 +317,6 @@ main {
     .box-card {
       border: 1px solid black;
       text-align: center;
-    }
-  }
-}
-
-footer {
-  .last-footer {
-    background-color: $secound-footer-color;
-
-    .social-icons {
-      color: rgb(128, 125, 125);
-    }
-
-    .sitemap {
-      color: rgb(128, 125, 125);
-      font-weight: 200;
-      font-size: 12px;
-
-      span {
-        color: white;
-        font-weight: 400;
-      }
-    }
-  }
-
-  .first-footer {
-    background-color: #000;
-
-    .footer-nav {
-      border-top: 1px solid gray;
-      border-bottom: 1px solid gray;
-
-      .footer-nav-item {
-        color: white;
-        font-weight: 600;
-      }
-
-      .middle-icon {
-        color: white;
-        border-radius: 50px;
-        width: 70px;
-        height: 70px;
-        left: 50%;
-        border: 1px solid grey;
-        font-size: 60px;
-        padding: 50px;
-        background-color: black;
-      }
-    }
-
-    .footer-form {
-      h5 {
-        color: white;
-      }
-
-      button {
-        background-color: grey;
-        color: black;
-        font-weight: 700;
-      }
-
-      input {
-        background-color: black;
-        border-color: grey;
-      }
-
-      .contact {
-        p {
-          color: $text-color;
-          line-height: 25px;
-          font-size: 12px;
-
-          span {
-            color: $primary-color;
-          }
-        }
-      }
-
-      .about {
-        p {
-          color: $text-color;
-          font-size: 12px;
-          line-height: 25px;
-
-          span {
-            color: $primary-color;
-          }
-        }
-      }
     }
   }
 }
