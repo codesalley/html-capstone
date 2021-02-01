@@ -61,6 +61,42 @@ a {
   color: rgb(44, 44, 44);
 }
 
+.resuts-description {
+  color: $text-color;
+  font-size: 14px;
+}
+
+.view-more {
+  padding: 20px;
+  background-color: rgb(233, 227, 227);
+  font-size: 32px;
+  font-weight: 200;
+  color: $text-color;
+}
+
+.box-card {
+  font-weight: 500;
+  span {
+    color: rgb(55, 90, 243);
+    font-weight: 600;
+  }
+}
+
+.footer-contacts {
+  span {
+    color: rgb(55, 90, 243);
+  }
+}
+
+.main-results {
+  .apply {
+    align-self: flex-end;
+    background-color: rgb(55, 90, 243);
+    color: white;
+    font-weight: 600;
+  }
+}
+
 .search-form {
   background-color: $lightwhite;
   padding: 40px;
@@ -116,7 +152,7 @@ footer {
         border-radius: 50px;
         width: 70px;
         height: 70px;
-        left: 50%;
+        left: 45%;
         border: 1px solid grey;
         font-size: 60px;
         padding: 50px;

@@ -53,6 +53,40 @@ a {
   color: #2c2c2c;
 }
 
+.resuts-description {
+  color: #5a5a5a;
+  font-size: 14px;
+}
+
+.view-more {
+  padding: 20px;
+  background-color: #e9e3e3;
+  font-size: 32px;
+  font-weight: 200;
+  color: #5a5a5a;
+}
+
+.box-card {
+  font-weight: 500;
+}
+
+.box-card span {
+  color: #375af3;
+  font-weight: 600;
+}
+
+.footer-contacts span {
+  color: #375af3;
+}
+
+.main-results .apply {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background-color: #375af3;
+  color: white;
+  font-weight: 600;
+}
+
 .search-form {
   background-color: #fff8;
   padding: 40px;
@@ -107,7 +141,7 @@ footer .first-footer .footer-nav .middle-icon {
   border-radius: 50px;
   width: 70px;
   height: 70px;
-  left: 50%;
+  left: 45%;
   border: 1px solid grey;
   font-size: 60px;
   padding: 50px;
