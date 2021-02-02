@@ -37,13 +37,17 @@ working with this project you will understand ad take advantage of CSS processor
 
 - No instalation required!
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@githubhandle](https://github.com/juxsalley)
 - Twitter: [@__salley](https://twitter.com/__salley)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/dev-salley/)
+
+**Design idea by**
+
+- Behance: [Mathew Njuguna](https://www.behance.net/mathewnjuguna)
 
 ## 📝 License
 
