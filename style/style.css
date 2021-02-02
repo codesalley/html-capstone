@@ -177,6 +177,17 @@ footer .first-footer .footer-form .about p span {
   color: #fa5757;
 }
 
+footer .first-footer .middle-icon {
+  padding: 30px;
+  width: 20px;
+  height: 20px;
+  left: 46%;
+  font-size: 35px;
+  border-radius: 50%;
+  border: 1px solid #5a5a5a;
+  background-color: black;
+}
+
 main .search-section {
   height: 70vh;
   background-image: url(/assets/hero-image.jpg);
@@ -227,9 +238,9 @@ main .card-img-overlay {
 main .card-img-overlay h5 {
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
-  color: white;
-  font-size: 30px;
-  font-weight: 700;
+  color: rgba(255, 255, 255, 0.829);
+  font-size: 22px;
+  font-weight: 600;
 }
 
 main .testimony-section {
@@ -342,6 +353,16 @@ main .main-results .box-card {
     padding: 50px;
     background-color: black;
   }
+  main .main-results {
+    border: none;
+  }
+  main .main-results .results-heading h6 {
+    font-size: 25px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    margin: 0;
+    padding-left: 5px;
+  }
   .nav-li-text {
     display: none;
   }
@@ -404,15 +425,51 @@ main .main-results .box-card {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 767px) {
   .nav-ul span {
     display: none;
+  }
+  main .main-results {
+    border: none;
+  }
+  main .main-results .results-heading h6 {
+    font-size: 25px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    margin: 0;
+    padding-left: 5px;
   }
   footer .first-footer .middle-icon {
     padding: 20px;
     width: 20px;
     height: 20px;
     left: 48%;
+    font-size: 35px;
+    border-radius: 50%;
+    border: 1px solid #5a5a5a;
+    background-color: black;
+  }
+}
+
+@media (min-width: 767px) {
+  .box-card {
+    width: 100%;
+  }
+  .results-heading h6 {
+    font-size: 45px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    margin: 0;
+    padding-left: 5px;
+  }
+}
+
+@media (min-width: 1050px) {
+  footer .first-footer .middle-icon {
+    padding: 45px;
+    width: 20px;
+    height: 20px;
+    left: 45%;
     font-size: 35px;
     border-radius: 50%;
     border: 1px solid #5a5a5a;

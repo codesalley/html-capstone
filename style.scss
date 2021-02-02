@@ -194,6 +194,17 @@ footer {
         }
       }
     }
+
+    .middle-icon {
+      padding: 30px;
+      width: 20px;
+      height: 20px;
+      left: 46%;
+      font-size: 35px;
+      border-radius: 50%;
+      border: 1px solid $text-color;
+      background-color: black;
+    }
   }
 }
 
@@ -203,7 +214,6 @@ main {
     background-image: url(/assets/hero-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
     .search-section-content {
       .search-header {
         color: white;
@@ -242,10 +252,9 @@ main {
 
     h5 {
       backdrop-filter: blur(5px);
-      color: rgb(255, 255, 255);
-      font-size: 30px;
-      font-weight: 700;
-      //   background-color: yellow;
+      color: rgba(255, 255, 255, 0.829);
+      font-size: 22px;
+      font-weight: 600;
     }
   }
 
@@ -350,9 +359,9 @@ main {
   }
 }
 
-$breakpoint-tablet: 800px;
+$breakpoint-tablet: 767px;
 $breakpoint-mobile: 576px;
-$breakpoint-desktop: 992px;
+$breakpoint-desktop: 1050px;
 @media (max-width: $breakpoint-mobile) {
   .middle-icon {
     color: white;
@@ -364,6 +373,19 @@ $breakpoint-desktop: 992px;
     font-size: 60px;
     padding: 50px;
     background-color: black;
+  }
+
+  main .main-results {
+    border: none;
+    .results-heading {
+      h6 {
+        font-size: 25px;
+        align-self: flex-end;
+        margin: 0;
+        padding-left: 5px;
+      }
+    }
+
   }
 
   .nav-li-text {
@@ -437,6 +459,18 @@ $breakpoint-desktop: 992px;
       display: none;
     }
   }
+  main .main-results {
+    border: none;
+    .results-heading {
+      h6 {
+        font-size: 25px;
+        align-self: flex-end;
+        margin: 0;
+        padding-left: 5px;
+      }
+    }
+
+  }
 
   footer {
     .first-footer {
@@ -445,6 +479,38 @@ $breakpoint-desktop: 992px;
         width: 20px;
         height: 20px;
         left: 48%;
+        font-size: 35px;
+        border-radius: 50%;
+        border: 1px solid $text-color;
+        background-color: black;
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-tablet){
+.box-card {
+  width: 100%;
+}
+.results-heading {
+  h6 {
+    font-size: 45px;
+    align-self: flex-end;
+    margin: 0;
+    padding-left: 5px;
+  }
+}
+
+}
+
+@media (min-width: $breakpoint-desktop) {
+  footer {
+    .first-footer {
+      .middle-icon {
+        padding: 45px;
+        width: 20px;
+        height: 20px;
+        left: 45%;
         font-size: 35px;
         border-radius: 50%;
         border: 1px solid $text-color;
