@@ -408,4 +408,14 @@ main .main-results .box-card {
   .nav-ul span {
     display: none;
   }
+  footer .first-footer .middle-icon {
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+    left: 48%;
+    font-size: 35px;
+    border-radius: 50%;
+    border: 1px solid #5a5a5a;
+    background-color: black;
+  }
 }
