@@ -82,6 +82,7 @@ a {
 
 .box-card {
   font-weight: 500;
+
   span {
     color: rgb(55, 90, 243);
     font-weight: 600;
@@ -214,6 +215,7 @@ main {
     background-image: url(/assets/hero-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+
     .search-section-content {
       .search-header {
         color: white;
@@ -363,7 +365,7 @@ main {
 
 .logo-div img {
   animation: logotwist 3s 5s ease-in-out infinite;
-   padding-right: 5px;
+  padding-right: 5px;
 }
 
 .view-more i {
@@ -371,36 +373,46 @@ main {
 }
 
 @keyframes logotwist {
+
   0% {
     transform: rotate(-5deg);
   }
+
   10% {
     transform: rotate(5deg);
   }
+
   40% {
     transform: rotate(-10deg);
   }
+
   90% {
     transform: rotate(10deg);
   }
+
   100% {
     transform: rotate(-5deg);
   }
 }
 
 @keyframes logobreath {
+
   0% {
     transform: scale(0.8);
   }
+
   10% {
     transform: scale(0.9);
   }
+
   40% {
     transform: scale(1);
   }
+
   90% {
     transform: scale(0.8);
   }
+
   100% {
     transform: scale(1);
   }
@@ -424,6 +436,7 @@ $breakpoint-desktop: 1050px;
 
   main .main-results {
     border: none;
+
     .results-heading {
       h6 {
         font-size: 25px;
@@ -437,19 +450,23 @@ $breakpoint-desktop: 1050px;
   .nav-li-text {
     display: none;
   }
+
   .logo {
     width: 35px;
     height: 35px;
     margin: 10px;
     align-self: center;
   }
+
   nav {
     flex-direction: column;
+
     .nav-ul {
       justify-content: center;
       align-content: flex-start;
       padding-top: 10px;
     }
+
     .nav-item i {
       font-size: 7vw;
     }
@@ -464,6 +481,7 @@ $breakpoint-desktop: 1050px;
     i {
       font-size: 35px;
     }
+
     h5 {
       font-size: 18px;
       padding: 10px;
@@ -475,9 +493,11 @@ $breakpoint-desktop: 1050px;
       display: none;
     }
   }
+
   footer {
     .first-footer {
       padding-top: 20px;
+
       .footer-nav {
         .middle-icon {
           width: 10px;
@@ -487,8 +507,10 @@ $breakpoint-desktop: 1050px;
           font-size: 20px;
           left: 45%;
         }
+
         .right-footer-nav {
           padding: 0;
+
           li a {
             font-weight: 100;
             font-size: 2.5vw;
@@ -505,8 +527,10 @@ $breakpoint-desktop: 1050px;
       display: none;
     }
   }
+
   main .main-results {
     border: none;
+
     .results-heading {
       h6 {
         font-size: 25px;
@@ -537,6 +561,7 @@ $breakpoint-desktop: 1050px;
   .box-card {
     width: 100%;
   }
+  
   .results-heading {
     h6 {
       font-size: 45px;
