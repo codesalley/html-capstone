@@ -122,93 +122,6 @@ a {
   }
 }
 
-footer {
-  .last-footer {
-    background-color: $secound-footer-color;
-
-    .social-icons {
-      color: rgb(128, 125, 125);
-    }
-
-    .sitemap {
-      color: rgb(128, 125, 125);
-      font-weight: 200;
-      font-size: 12px;
-
-      span {
-        color: white;
-        font-weight: 400;
-      }
-    }
-  }
-
-  .first-footer {
-    background-color: #000;
-
-    .footer-nav {
-      border-top: 1px solid gray;
-      border-bottom: 1px solid gray;
-
-      .footer-nav-item {
-        color: white;
-        font-weight: 600;
-      }
-    }
-
-    .footer-form {
-      h5 {
-        color: white;
-      }
-
-      button {
-        background-color: grey;
-        color: black;
-        font-weight: 700;
-      }
-
-      input {
-        background-color: black;
-        border-color: grey;
-      }
-
-      .contact {
-        p {
-          color: $text-color;
-          line-height: 25px;
-          font-size: 12px;
-
-          span {
-            color: $primary-color;
-          }
-        }
-      }
-
-      .about {
-        p {
-          color: $text-color;
-          font-size: 12px;
-          line-height: 25px;
-
-          span {
-            color: $primary-color;
-          }
-        }
-      }
-    }
-
-    .middle-icon {
-      padding: 30px;
-      width: 20px;
-      height: 20px;
-      left: 46%;
-      font-size: 35px;
-      border-radius: 50%;
-      border: 1px solid $text-color;
-      background-color: black;
-    }
-  }
-}
-
 main {
   .search-section {
     height: 70vh;
@@ -361,6 +274,93 @@ main {
   }
 }
 
+footer {
+  .last-footer {
+    background-color: $secound-footer-color;
+
+    .social-icons {
+      color: rgb(128, 125, 125);
+    }
+
+    .sitemap {
+      color: rgb(128, 125, 125);
+      font-weight: 200;
+      font-size: 12px;
+
+      span {
+        color: white;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .first-footer {
+    background-color: #000;
+
+    .footer-nav {
+      border-top: 1px solid gray;
+      border-bottom: 1px solid gray;
+
+      .footer-nav-item {
+        color: white;
+        font-weight: 600;
+      }
+    }
+
+    .footer-form {
+      h5 {
+        color: white;
+      }
+
+      button {
+        background-color: grey;
+        color: black;
+        font-weight: 700;
+      }
+
+      input {
+        background-color: black;
+        border-color: grey;
+      }
+
+      .contact {
+        p {
+          color: $text-color;
+          line-height: 25px;
+          font-size: 12px;
+
+          span {
+            color: $primary-color;
+          }
+        }
+      }
+
+      .about {
+        p {
+          color: $text-color;
+          font-size: 12px;
+          line-height: 25px;
+
+          span {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+
+    .middle-icon {
+      padding: 30px;
+      width: 20px;
+      height: 20px;
+      left: 46%;
+      font-size: 35px;
+      border-radius: 50%;
+      border: 1px solid $text-color;
+      background-color: black;
+    }
+  }
+}
+
 // amimation section animation: name duration timing-function delay iteration-count direction fill-mode play-state;
 
 .logo-div img {
@@ -373,7 +373,6 @@ main {
 }
 
 @keyframes logotwist {
-
   0% {
     transform: rotate(-5deg);
   }
@@ -396,7 +395,6 @@ main {
 }
 
 @keyframes logobreath {
-
   0% {
     transform: scale(0.8);
   }
@@ -561,7 +559,7 @@ $breakpoint-desktop: 1050px;
   .box-card {
     width: 100%;
   }
-  
+
   .results-heading {
     h6 {
       font-size: 45px;
