@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
@@ -17,7 +17,8 @@ html {
   color: white;
 }
 
-li, ul {
+li,
+ul {
   list-style: none;
 }
 
@@ -88,7 +89,7 @@ a {
 
 .main-results .apply {
   -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
   background-color: #375af3;
   color: white;
   font-weight: 600;
@@ -150,16 +151,16 @@ main .card-img-overlay {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 main .card-img-overlay h5 {
   -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   color: rgba(255, 255, 255, 0.829);
   font-size: 22px;
   font-weight: 600;
@@ -240,7 +241,7 @@ main .search-filter-group label {
 
 main .result-card img {
   -webkit-filter: brightness(70%);
-          filter: brightness(70%);
+  filter: brightness(70%);
 }
 
 main .search-heading {
@@ -344,104 +345,120 @@ footer .first-footer .middle-icon {
 
 .logo-div img {
   -webkit-animation: logotwist 3s 5s ease-in-out infinite;
-          animation: logotwist 3s 5s ease-in-out infinite;
+  animation: logotwist 3s 5s ease-in-out infinite;
   padding-right: 5px;
 }
 
 .view-more i {
   -webkit-animation: logobreath 3s 5s ease-in-out infinite;
-          animation: logobreath 3s 5s ease-in-out infinite;
+  animation: logobreath 3s 5s ease-in-out infinite;
 }
 
 @-webkit-keyframes logotwist {
   0% {
     -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg);
+    transform: rotate(-5deg);
   }
+
   10% {
     -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
+    transform: rotate(5deg);
   }
+
   40% {
     -webkit-transform: rotate(-10deg);
-            transform: rotate(-10deg);
+    transform: rotate(-10deg);
   }
+
   90% {
     -webkit-transform: rotate(10deg);
-            transform: rotate(10deg);
+    transform: rotate(10deg);
   }
+
   100% {
     -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg);
+    transform: rotate(-5deg);
   }
 }
 
 @keyframes logotwist {
   0% {
     -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg);
+    transform: rotate(-5deg);
   }
+
   10% {
     -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
+    transform: rotate(5deg);
   }
+
   40% {
     -webkit-transform: rotate(-10deg);
-            transform: rotate(-10deg);
+    transform: rotate(-10deg);
   }
+
   90% {
     -webkit-transform: rotate(10deg);
-            transform: rotate(10deg);
+    transform: rotate(10deg);
   }
+
   100% {
     -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg);
+    transform: rotate(-5deg);
   }
 }
 
 @-webkit-keyframes logobreath {
   0% {
     -webkit-transform: scale(0.8);
-            transform: scale(0.8);
+    transform: scale(0.8);
   }
+
   10% {
     -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    transform: scale(0.9);
   }
+
   40% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
+
   90% {
     -webkit-transform: scale(0.8);
-            transform: scale(0.8);
+    transform: scale(0.8);
   }
+
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
 @keyframes logobreath {
   0% {
     -webkit-transform: scale(0.8);
-            transform: scale(0.8);
+    transform: scale(0.8);
   }
+
   10% {
     -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    transform: scale(0.9);
   }
+
   40% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
+
   90% {
     -webkit-transform: scale(0.8);
-            transform: scale(0.8);
+    transform: scale(0.8);
   }
+
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
@@ -457,61 +474,74 @@ footer .first-footer .middle-icon {
     padding: 50px;
     background-color: black;
   }
+
   main .main-results {
     border: none;
   }
+
   main .main-results .results-heading h6 {
     font-size: 25px;
     -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     margin: 0;
     padding-left: 5px;
   }
+
   .nav-li-text {
     display: none;
   }
+
   .logo {
     width: 35px;
     height: 35px;
     margin: 10px;
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
+
   nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
+
   nav .nav-ul {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -ms-flex-line-pack: start;
-        align-content: flex-start;
+    align-content: flex-start;
     padding-top: 10px;
   }
+
   nav .nav-item i {
     font-size: 7vw;
   }
+
   .section-header {
     font-size: 18px;
     text-align: center;
   }
+
   .info i {
     font-size: 35px;
   }
+
   .info h5 {
     font-size: 18px;
     padding: 10px;
   }
+
   .testimony-card img {
     display: none;
   }
+
   footer .first-footer {
     padding-top: 20px;
   }
+
   footer .first-footer .footer-nav .middle-icon {
     width: 10px;
     height: 10px;
@@ -520,9 +550,11 @@ footer .first-footer .middle-icon {
     font-size: 20px;
     left: 45%;
   }
+
   footer .first-footer .footer-nav .right-footer-nav {
     padding: 0;
   }
+
   footer .first-footer .footer-nav .right-footer-nav li a {
     font-weight: 100;
     font-size: 2.5vw;
@@ -533,16 +565,19 @@ footer .first-footer .middle-icon {
   .nav-ul span {
     display: none;
   }
+
   main .main-results {
     border: none;
   }
+
   main .main-results .results-heading h6 {
     font-size: 25px;
     -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     margin: 0;
     padding-left: 5px;
   }
+
   footer .first-footer .middle-icon {
     padding: 20px;
     width: 20px;
@@ -559,10 +594,11 @@ footer .first-footer .middle-icon {
   .box-card {
     width: 100%;
   }
+
   .results-heading h6 {
     font-size: 45px;
     -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
     margin: 0;
     padding-left: 5px;
   }
