@@ -17,7 +17,7 @@ html {
   color: white;
 }
 
-li {
+li, ul {
   list-style: none;
 }
 
