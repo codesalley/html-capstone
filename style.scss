@@ -359,6 +359,31 @@ main {
   }
 }
 
+// amimation section animation: name duration timing-function delay iteration-count direction fill-mode play-state;
+
+.logo-div img {
+  animation: logotwist 3s 2s ease-in-out infinite;
+  padding-right: 5px;
+}
+
+@keyframes logotwist {
+  0% {
+    transform: rotate(-5deg);
+  }
+  10% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-10deg);
+  }
+  90% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+
 $breakpoint-tablet: 767px;
 $breakpoint-mobile: 576px;
 $breakpoint-desktop: 1050px;
@@ -385,7 +410,6 @@ $breakpoint-desktop: 1050px;
         padding-left: 5px;
       }
     }
-
   }
 
   .nav-li-text {
@@ -469,7 +493,6 @@ $breakpoint-desktop: 1050px;
         padding-left: 5px;
       }
     }
-
   }
 
   footer {
@@ -488,19 +511,18 @@ $breakpoint-desktop: 1050px;
   }
 }
 
-@media (min-width: $breakpoint-tablet){
-.box-card {
-  width: 100%;
-}
-.results-heading {
-  h6 {
-    font-size: 45px;
-    align-self: flex-end;
-    margin: 0;
-    padding-left: 5px;
+@media (min-width: $breakpoint-tablet) {
+  .box-card {
+    width: 100%;
   }
-}
-
+  .results-heading {
+    h6 {
+      font-size: 45px;
+      align-self: flex-end;
+      margin: 0;
+      padding-left: 5px;
+    }
+  }
 }
 
 @media (min-width: $breakpoint-desktop) {
