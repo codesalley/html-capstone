@@ -18,6 +18,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.main-heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+
 li {
   list-style: none;
 }
@@ -146,18 +152,6 @@ footer {
         color: white;
         font-weight: 600;
       }
-
-      .middle-icon {
-        color: white;
-        border-radius: 50px;
-        width: 70px;
-        height: 70px;
-        left: 45%;
-        border: 1px solid grey;
-        font-size: 60px;
-        padding: 50px;
-        background-color: black;
-      }
     }
 
     .footer-form {
@@ -237,7 +231,6 @@ main {
       color: $text-color;
       font-size: 15px;
       text-align: center;
-      padding: 0 40px;
     }
   }
 
@@ -353,6 +346,95 @@ main {
     .box-card {
       border: 1px solid black;
       text-align: center;
+    }
+  }
+}
+
+$breakpoint-tablet: 800px;
+$breakpoint-mobile: 576px;
+$breakpoint-desktop: 992px;
+@media (max-width: $breakpoint-mobile) {
+  .middle-icon {
+    color: white;
+    border-radius: 50px;
+    width: 5px;
+    height: 5px;
+    left: 45%;
+    border: 1px solid grey;
+    font-size: 60px;
+    padding: 50px;
+    background-color: black;
+  }
+
+  .nav-li-text {
+    display: none;
+  }
+  .logo {
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+    align-self: center;
+  }
+  nav {
+    flex-direction: column;
+    .nav-ul {
+      justify-content: center;
+      align-content: flex-start;
+      padding-top: 10px;
+    }
+    .nav-item i {
+      font-size: 7vw;
+    }
+  }
+
+  .section-header {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .info {
+    i {
+      font-size: 35px;
+    }
+    h5 {
+      font-size: 18px;
+      padding: 10px;
+    }
+  }
+
+  .testimony-card {
+    img {
+      display: none;
+    }
+  }
+  footer {
+    .first-footer {
+      padding-top: 20px;
+      .footer-nav {
+        .middle-icon {
+          width: 10px;
+          height: 10px;
+          padding: 15px;
+          border: 2px solid $text-color;
+          font-size: 20px;
+          left: 45%;
+        }
+        .right-footer-nav {
+          padding: 0;
+          li a {
+            font-weight: 100;
+            font-size: 2.5vw;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .nav-ul {
+    span {
+      display: none;
     }
   }
 }
