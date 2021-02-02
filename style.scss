@@ -7,6 +7,8 @@ $testimony-color-2: #5488a6;
 $secound-footer-color: #232222;
 $primary-text-color: rgb(240, 236, 236);
 
+/* stylelint-disable no-descending-specificity */ 
+
 * {
   margin: 0;
   padding: 0;
@@ -419,6 +421,7 @@ footer {
 $breakpoint-tablet: 767px;
 $breakpoint-mobile: 576px;
 $breakpoint-desktop: 1050px;
+
 @media (max-width: $breakpoint-mobile) {
   .middle-icon {
     color: white;
