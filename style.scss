@@ -75,7 +75,7 @@ a {
 .view-more {
   padding: 20px;
   background-color: rgb(233, 227, 227);
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 200;
   color: $text-color;
 }
@@ -362,8 +362,12 @@ main {
 // amimation section animation: name duration timing-function delay iteration-count direction fill-mode play-state;
 
 .logo-div img {
-  animation: logotwist 3s 2s ease-in-out infinite;
-  padding-right: 5px;
+  animation: logotwist 3s 5s ease-in-out infinite;
+   padding-right: 5px;
+}
+
+.view-more i {
+  animation: logobreath 3s 5s ease-in-out infinite;
 }
 
 @keyframes logotwist {
@@ -381,6 +385,24 @@ main {
   }
   100% {
     transform: rotate(-5deg);
+  }
+}
+
+@keyframes logobreath {
+  0% {
+    transform: scale(0.8);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  40% {
+    transform: scale(1);
+  }
+  90% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 

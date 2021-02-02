@@ -67,7 +67,7 @@ a {
 .view-more {
   padding: 20px;
   background-color: #e9e3e3;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 200;
   color: #5a5a5a;
 }
@@ -342,9 +342,14 @@ main .main-results .box-card {
 }
 
 .logo-div img {
-  -webkit-animation: logotwist 3s 2s ease-in-out infinite;
-          animation: logotwist 3s 2s ease-in-out infinite;
+  -webkit-animation: logotwist 3s 5s ease-in-out infinite;
+          animation: logotwist 3s 5s ease-in-out infinite;
   padding-right: 5px;
+}
+
+.view-more i {
+  -webkit-animation: logobreath 3s 5s ease-in-out infinite;
+          animation: logobreath 3s 5s ease-in-out infinite;
 }
 
 @-webkit-keyframes logotwist {
@@ -390,6 +395,52 @@ main .main-results .box-card {
   100% {
     -webkit-transform: rotate(-5deg);
             transform: rotate(-5deg);
+  }
+}
+
+@-webkit-keyframes logobreath {
+  0% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  10% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  40% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  90% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes logobreath {
+  0% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  10% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  40% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  90% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
