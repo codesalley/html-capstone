@@ -113,7 +113,7 @@ a {
 
 main .search-section {
   height: 70vh;
-  background-image: url(/assets/hero-image.jpg);
+  background-image: url(../assets/hero-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
