@@ -113,7 +113,7 @@ a {
 
 main .search-section {
   height: 70vh;
-  background-image: url(../assets/hero-image.jpg);
+  background-image: url(/assets/hero-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -530,7 +530,7 @@ footer .first-footer .middle-icon {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 820px) {
   .nav-ul span {
     display: none;
   }
@@ -556,7 +556,7 @@ footer .first-footer .middle-icon {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 728px) {
   .box-card {
     width: 100%;
   }
@@ -569,7 +569,7 @@ footer .first-footer .middle-icon {
   }
 }
 
-@media (min-width: 1050px) {
+@media (min-width: 1024px) {
   footer .first-footer .middle-icon {
     padding: 45px;
     width: 20px;

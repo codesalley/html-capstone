@@ -419,9 +419,10 @@ footer {
   }
 }
 
-$breakpoint-tablet: 800px;
+$breakpoint-tablet: 728px;
 $breakpoint-mobile: 576px;
-$breakpoint-desktop: 1050px;
+$breakpoint-desktop: 1024px;
+$nav-break-point: 820px;
 
 @media (max-width: $breakpoint-mobile) {
   .middle-icon {
@@ -523,7 +524,7 @@ $breakpoint-desktop: 1050px;
   }
 }
 
-@media (max-width: $breakpoint-tablet) {
+@media (max-width: $nav-break-point) {
   .nav-ul {
     span {
       display: none;
