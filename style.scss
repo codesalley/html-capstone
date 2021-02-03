@@ -128,7 +128,7 @@ a {
 main {
   .search-section {
     height: 70vh;
-    background-image: url(./assets/hero-image.jpg);
+    background-image: url(/assets/hero-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -190,7 +190,7 @@ main {
         color: white;
 
         h5 {
-          font-family: 600;
+          font-weight: 600;
           line-height: 20px;
         }
 
@@ -419,7 +419,7 @@ footer {
   }
 }
 
-$breakpoint-tablet: 767px;
+$breakpoint-tablet: 800px;
 $breakpoint-mobile: 576px;
 $breakpoint-desktop: 1050px;
 

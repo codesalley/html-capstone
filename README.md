@@ -20,7 +20,7 @@
 [Live Demo Link](https://juxsalley.github.io/html-capstone/index.html)
 
 This project is built to carefully outline how Bootstrap, sass, and CSS can aid in page layout and responsiveness,
-working with this project you will understand ad take advantage of CSS processors for page layout and elements positioning.
+working with this project you will understand and take advantage of CSS processors for page layout and elements positioning.
 
 ### Prerequisites
 
@@ -29,7 +29,7 @@ working with this project you will understand ad take advantage of CSS processor
 
 ### Setup
 
-- git clone <link-of-the-repo>
+- Clone the project using: 'git clone https://github.com/juxsalley/html-capstone.git'
 - cd repo-folder
 - open in browser
 
@@ -45,9 +45,14 @@ working with this project you will understand ad take advantage of CSS processor
 - Twitter: [@__salley](https://twitter.com/__salley)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/dev-salley/)
 
-**Design idea by**
+
+
+## Acknowledgments
+
+*Design idea by*
 
 - Behance: [Mathew Njuguna](https://www.behance.net/mathewnjuguna)
+- [Patashule](https://www.behance.net/gallery/25563385/PatashuleKE)
 
 ## 📝 License
 
